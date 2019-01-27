@@ -24,8 +24,12 @@ plt.plot(x,y2)
 
 plt.show()
 ```
+<center>
 <img width=300 heigh=300 title='图1.4.2.1' src="https://github.com/laiangpuao/matplotlib/blob/master/image/1.4.2.1.png"/>
+</center>
 
 > 小提示:官方文档
 > - [plot tutorial](http://matplotlib.org/users/pyplot_tutorial.html)
 > - [plot() command](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot)
+
+
