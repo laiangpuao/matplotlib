@@ -13,7 +13,7 @@ plt.plot([1,2,3,4])
 plt.ylabel('some numbers')   
 plt.show()
 ```
-<img src=/>   
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_001.webp/>   
 您可能很好奇为什么x轴的范围是0-3，而y轴的范围是1-4，如果您只为plot()函数传入单个列表和数组，matplotlib就假定它是一组y的值，并自动为您生成x轴，由于Python中的范围一般是以0开头，所以虽然x与y的长度相同，但是却是以0开头，因此x的值是[0,1,2,3]   
 plot()是一个功能强大的函数，可以以任意数字作为参数，例如，如果需要绘制x与y的关系图，您可以发出命令：   
 
