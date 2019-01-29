@@ -83,7 +83,7 @@ plt.subtitle('Categorical Plotting')
 plt.show()
 ```
 
-<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_006.webp/>
+<img width=650 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_006.webp/>
 
 ## Controlling line propertities(控制线条属性)
 
