@@ -20,7 +20,7 @@ plot()是一个功能强大的函数，可以以任意数字作为参数，例�
 ```python   
 plt.plot([1,2,3,4],[1,4,9,16])   
 ```
-<img src=/>   
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_002.webp/>   
 ## (Formatting the style of your  plot)格式化图形样式
 对于每一对xy参数，都有一个可供选择的第三个参数，是一个用来指定颜色和线条类型的*格式化字符串*，格式化字符串的字母与数字都是来自MATLAB，您可以把代表颜色的字符串和代表拍线条样式的字符串连接（concatenate）在一起，默认的字符串格式是'b-'，它代表的是一条红色的实线。例如，您可以使用红色的圆圈来重新画一下上面的图形：
 
@@ -29,7 +29,7 @@ plt.plot([1,2,3,4],[1,4,9,16],'ro')
 plt.axis([0,6,0,20])
 plt.show()
 ```
-
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_003.webp>
 有关plot()线条类型和相对应的格式字符串的完整列表，请参阅 [plot()](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot) 的官方文档,上面例子中的axis()命令以一个列表[xmin,xmax,ymin,ymax]为参数，用来指定图中xy轴的可视范围。如果matplotlib仅限于使用列表，那么它对于数字处理来说将变得毫无用处。通常情况下，您都可以使用numpy 矩阵，事实上，所有的序列都会在matplotlib的内部被转换成numpy矩阵，下面的一个例子演示了使用矩阵和一个pyplot命令绘制的多个样式不同的线条。
 
 ```python
@@ -40,7 +40,7 @@ plt.plot(t,t,'r--',t,t**2,'bs',t,t**3,'g^')
 plt.show()
 ```
 
-<img src=/>
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_004.webp/>
 
 ## Plotting with keyword strings(使用关键字字符串绘图)
 
@@ -61,7 +61,7 @@ plt.ylabel('entry b')
 plt.show()
 ```
 
-<img src=/>
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_005.webp/>
 
 ## Plotting with categorical variables(使用分类变量绘图)
 
@@ -83,7 +83,7 @@ plt.subtitle('Categorical Plotting')
 plt.show()
 ```
 
-<img src=/>
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_006.webp/>
 
 ## Controlling line propertities(控制线条属性)
 
@@ -180,7 +180,7 @@ plt.subplot(2,1,2)
 plt.plot(t2,np.cos(2*np.pi*t2),'r--')
 plt.show()
 ```
-
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_007.webp/>
 
 
 
@@ -205,7 +205,7 @@ plt.grid(True)
 plt.show()
 ```
 
-<img src=/>
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_008.webp/>
 
 所有的`text()`命令都返回一个matplotlib.text.Text的实例对象，就和上面讲的线条属性一样，你也可以通过在`text()`函数里使用关键字参数（keyword args）来自定义属性，或者是使用`setp()`
 
@@ -247,6 +247,6 @@ plt.ylim(-2,2)
 plt.show()
 ```
 
-<img src=/>
+<img width=450 height=350 src=https://github.com/laiangpuao/matplotlib/blob/master/image/Pyplot%20Tutorial/sphx_glr_pyplot_009.webp/>
 
 在这个基本的例子中，xy(箭头提示)和xytext(文本位置)都在数据坐标(Data coordinates)中，你也可以选择各种其他的坐标系统，更多内容[Base Annotation](https://matplotlib.org/tutorials/text/annotations.html#annotations-tutorial),   [Advanced Annotation](https://matplotlib.org/tutorials/text/annotations.html#plotting-guide-annotation),  你也可以在[Annotating Plots](https://matplotlib.org/gallery/text_labels_and_annotations/annotation_demo.html)中找到更多关于注释的例子。
